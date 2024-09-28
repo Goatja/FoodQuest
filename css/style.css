@@ -1,0 +1,74 @@
+.navbar {
+  background-color: #333;
+}
+
+.navbar-brand,
+.nav-link {
+  color: #fff;
+}
+
+.nav-link:hover {
+  color: #ffdd00;
+}
+
+.hero-section {
+    background: 
+      linear-gradient(
+        90deg,
+        rgba(121, 9, 41, 0.39) 0%,
+        rgba(121, 9, 41, 0.384) 35%,
+        rgba(121, 9, 41, 0.349) 100%
+      ),
+      url("../img/pupusas.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    color: #fdf2e9 ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+  }
+  
+
+.hero-section h1 {
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.hero-section p {
+  font-size: 1.2rem;
+  margin-top: 20px;
+}
+
+.btn-custom {
+  background-color: #ffdd00;
+  color: #333;
+  border: none;
+}
+
+.btn-custom:hover {
+  background-color: #333;
+  color: #ffdd00;
+}
+
+.section-title {
+  font-size: 2rem;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+
+.section-content img {
+  width: 100%;
+  height: auto;
+}
+
+.footer {
+  background-color: #333;
+  color: white;
+  padding: 20px 0;
+  text-align: center;
+}

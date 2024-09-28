@@ -1,0 +1,122 @@
+<!doctype html>
+<html lang="es">
+<head>
+    <title>Menú de Comidas Típicas</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
+    <!-- Bootstrap CSS v5.3.2 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/mantel.css">
+</head>
+
+<body>
+    <!-- Header with Navbar -->
+    <header>
+        <nav class="navbar navbar-expand-lg">
+            <div class="container">
+                <a class="navbar-brand" href="../index.html">FoodQuest</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="../index.html" id="about-link">Acerca de</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="menu.html" id="menu-link">Menú</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#" id="offers-link">Ofertas Especiales</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#" id="locations-link">Lugares</a>
+                        </li>
+                        <li class="nav-item">
+                            <select id="language-selector" class="form-select form-select-sm">
+                                <option value="es" selected>Español</option>
+                                <option value="en">English</option>
+                            </select>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Main Section -->
+    <main class="" style="background-color: tomato;">
+        <!-- Hero Section for the Menu Page -->
+        <div class="hero-section">
+            <h1 id="hero-title">Menú de Comidas Típicas</h1>
+            <p id="hero-text">¡Explora nuestros deliciosos platos tradicionales salvadoreños!</p>
+        </div>
+
+        <!-- Menu Section -->
+        <div class="container my-5 menu-section">
+            <h2 class="text-center">Platos Principales</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="menu-item text-center">
+                        <img src="../img/pupusas.jpg" alt="Pupusas" class="img-fluid rounded">
+                        <h4 id="menu-section1-title">Pupusas</h4>
+                        <p id="menu-section1-description">Tradicionales pupusas de queso, frijol y chicharrón servidas con curtido y salsa de tomate.</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="menu-item text-center">
+                        <img src="../img/yuca.jpg" alt="Yuca con Chicharrón" class="img-fluid rounded">
+                        <h4 id="menu-section2-title">Yuca con Chicharrón</h4>
+                        <p id="menu-section2-description">Yuca cocida o frita acompañada de chicharrón, curtido y salsa de tomate.</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="menu-item text-center">
+                        <img src="../img/tamales.jpg" alt="Tamales de Elote" class="img-fluid rounded">
+                        <h4 id="menu-section3-title">Tamales de Elote</h4>
+                        <p id="menu-section3-description">Tamales de elote suaves y esponjosos, servidos con crema o frijoles.</p>
+                    </div>
+                </div>
+            </div>
+
+            <h2 class="text-center mt-5">Bebidas Típicas</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="menu-item text-center">
+                        <img src="../img/horchata.jpg" alt="Horchata" class="img-fluid rounded">
+                        <h4 id="drink1-title">Horchata</h4>
+                        <p id="drink1-description">Bebida refrescante de semillas de morro y especias.</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="menu-item text-center">
+                        <img src="../img/ensalada.jpg" alt="Ensalada" class="img-fluid rounded">
+                        <h4 id="drink2-title">Ensalada</h4>
+                        <p id="drink2-description">Jugo de frutas naturales con trocitos de manzana, piña, y marañón.</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="menu-item text-center">
+                        <img src="../img/atol.jpg" alt="Atol de Elote" class="img-fluid rounded">
+                        <h4 id="drink3-title">Atol de Elote</h4>
+                        <p id="drink3-description">Delicioso atol de elote, una bebida caliente y cremosa de maíz.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer text-center py-4 bg-dark text-white">
+        <p id="footer-title">&copy; 2024 Salvadoran Traditional Food. Todos los derechos reservados.</p>
+    </footer>
+    
+    <script src="../js/language.js"></script>
+
+    <!-- Bootstrap JavaScript Libraries -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
+</body>
+</html>
